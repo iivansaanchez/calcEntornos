@@ -19,17 +19,10 @@ public class MainApp {
 			System.out.println(ari.suma(ne1, ne2));
 			System.out.println(ari.resta(ne1, ne2));
 			
-			
-			Numero nd1 = new Decimal(15, 3);
-			Numero nd2 = new Decimal(25, 3);
-			System.out.println(ari.suma(nd1, nd2));
-			System.out.println(ari.resta(nd1, nd2));
-			
 			Numero[] lista = new Numero[10];
 			lista[1]=ne1;
 			lista[2]=ne2;
-			lista[3]=nd1;
-			lista[6]=nd2;
+
 			
 			System.out.println(ari.calcularMedia(deleteNulls(lista)));
 			System.out.println(printCol(deleteNulls(lista)));
