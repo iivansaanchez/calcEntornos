@@ -6,8 +6,8 @@ public class Decimal extends Numero{
 
 	private int valorDecimal;
 	
-	private static final int VALOR_MINIMO = -100000;
-	private static final int VALOR_MAXIMO = 100001;
+	private static final int VALOR_MINIMO = -100;
+	private static final int VALOR_MAXIMO = 100;
 	
 	/**
 	 * EN este metodo llamado decimal intereacturan el valor con la base, llaman a la clase padre
