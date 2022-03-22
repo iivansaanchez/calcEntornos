@@ -6,11 +6,7 @@ public class NumeroException extends RuntimeException {
 	public NumeroException() {
 	}
 
-	public NumeroException(String message) {
-		super(message);
-	}
-
-	public NumeroException(Throwable cause) {
+	public NumeroException(String cause) {
 		super(cause);
 	}
 
