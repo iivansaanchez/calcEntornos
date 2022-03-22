@@ -9,7 +9,6 @@ public class Decimal extends Numero{
 	private static final int VALOR_MINIMO = -100000;
 	private static final int VALOR_MAXIMO = 100001;
 	
-	
 	/**
 	 * EN este metodo llamado decimal intereacturan el valor con la base, llaman a la clase padre
 	 * y al serValorDeicimal cuando sea 0.
@@ -80,7 +79,6 @@ public class Decimal extends Numero{
 		this.valorDecimal=valorDecimal;
 	}
 
-
 	public int getValorDecimal() {
 		return valorDecimal;
 	}
@@ -93,7 +91,6 @@ public class Decimal extends Numero{
 		result = prime * result + Objects.hash(valorDecimal);
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {

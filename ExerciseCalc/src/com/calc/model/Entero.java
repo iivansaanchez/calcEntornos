@@ -6,8 +6,6 @@ public class Entero extends Numero {
 	private static final int VALOR_MAXIMO = 100001;
 
 	
-	
-	
 	public Entero(int value, Base base) {
 		super(value, base);
 	}
